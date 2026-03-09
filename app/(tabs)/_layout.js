@@ -33,6 +33,7 @@ export default function Layout() {
         name="biblioteca" 
         options={{ 
           title: 'Biblioteca',
+          headerShown: false, // Amaga el header a la pantalla de Biblioteca
           tabBarIcon: ({ focused, color, size }) => (
             <Ionicons name={focused ? 'library' : 'library-outline'} size={size} color={color} />
           )
