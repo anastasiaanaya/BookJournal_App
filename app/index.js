@@ -1,3 +1,5 @@
+//És com la Home Screen, però aquí anirà el Reading Tracker i el repte lector. 
+
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
