@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Link } from 'react-native';
 
-// ¡Importante que tenga "export default" y el nombre correcto!
 export default function Biblioteca() {
   return (
     <View style={styles.container}>
