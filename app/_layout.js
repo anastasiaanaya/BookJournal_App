@@ -1,4 +1,4 @@
-import { Tabs } from 'expo-router';
+import { Tabs, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function Layout() {
@@ -34,6 +34,13 @@ export default function Layout() {
           tabBarIcon: ({ focused, color, size }) => (
             <Ionicons name={focused ? 'library' : 'library-outline'} size={size} color={color} />
           )
+        }} 
+      />
+      <Stack.Screen 
+        name="detall_llibres" 
+        options={{ 
+          title: 'Detall del Llibre',
+            headerStyle: { backgroundColor: '#25292e' },
         }} 
       />
 
