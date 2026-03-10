@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
-export default function Layout() {
+export default function LayoutTabs() {
   return (
     
     <Tabs
@@ -28,7 +28,7 @@ export default function Layout() {
         }} 
       />
 
-      {/* 2. Pestanya Biblioteca */}
+      {/* Pestanya Biblioteca */}
       <Tabs.Screen 
         name="biblioteca" 
         options={{ 
@@ -41,7 +41,7 @@ export default function Layout() {
       />
       
 
-      {/* 3. Pestanya Explorar */}
+      {/* Pestanya Explorar */}
       <Tabs.Screen 
         name="explorar" 
         options={{ 
@@ -52,7 +52,7 @@ export default function Layout() {
         }} 
       />
 
-      {/* 4. Pestanya Diari */}
+      {/* Pestanya Diari */}
       <Tabs.Screen 
         name="diari" 
         options={{ 
@@ -63,7 +63,7 @@ export default function Layout() {
         }} 
       />
 
-      {/* 5. Pestanya Perfil */}
+      {/* Pestanya Perfil */}
       <Tabs.Screen 
         name="perfil" 
         options={{ 

@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function LlistaLectures() {
+export default function LlibresPrestats() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>📚 Llista de lectures</Text>
-      <Text>Aquí aniran els llibres que ja has llegit.</Text>
+      <Text style={styles.title}>Llibres prestats</Text>
+      <Text>Aquí aniran els llibres que has prestat.</Text>
     </View>
   );
 }

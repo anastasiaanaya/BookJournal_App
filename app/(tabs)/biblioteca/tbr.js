@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function LlistaLectures() {
+export default function TBR() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>📚 Llista de lectures</Text>
-      <Text>Aquí aniran els llibres que ja has llegit.</Text>
+      <Text style={styles.title}>📚 Llibres que vull llegir (TBR)</Text>
+      <Text>Aquí aniran els llibres que vull llegir.</Text>
     </View>
   );
 }

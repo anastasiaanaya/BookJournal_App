@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import {useLocalSearchParams, Stack} from 'expo-router';
 
-export default function BookDetailScreen() {
+export default function DetallLlibres() {
   const { nom, autor, descripcio } = useLocalSearchParams(); 
 
   return (

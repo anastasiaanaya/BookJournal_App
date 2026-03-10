@@ -2,6 +2,7 @@
   "expo": {
     "name": "diariDeLectura",
     "slug": "diariDeLectura",
+    "scheme": "diarilectura",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
