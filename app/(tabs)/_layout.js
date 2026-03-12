@@ -14,7 +14,7 @@ export default function LayoutTabs() {
         // Colors menú inferior
         tabBarActiveTintColor: '#8B4513',
         tabBarInactiveTintColor: 'gray',
-        tabBarShowLabel: false, // Amaga els títols de les pestanyes
+        //tabBarShowLabel: false, // Amaga els títols de les pestanyes
       }}
     >
       {/* Pestanya Inici */}
